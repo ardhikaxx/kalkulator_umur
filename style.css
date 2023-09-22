@@ -1,0 +1,60 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background: #333;
+    color: #fff;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+    background-color: #000;
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 420px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.input-form
+.hasil-section {
+    margin: 15px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+input [type="date"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+}
+
+button {
+    display: block;
+    margin-top: 20px;
+    padding: 6px 15px;
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.hasil-section p {
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

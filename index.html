@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kalkulator Umur</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Kalkulator Umur</h2>
+        <div class="input-form">
+            <label for="dob">Masukkan Tanggal Lahir Kamu:</label>
+            <input type="date" id="dob">
+            <button onclick="calculate_age()">Hitung</button>
+        </div>
+        <div class="hasil-section">
+            <p>Umur Kamu Adalah: <span id="age"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
